@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF05C54924EC6A1D007BF32B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF05C54824EC6A1D007BF32B /* AppDelegate.swift */; };
+		FF05C54B24EC6A1D007BF32B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF05C54A24EC6A1D007BF32B /* SceneDelegate.swift */; };
+		FF05C54D24EC6A1D007BF32B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF05C54C24EC6A1D007BF32B /* ContentView.swift */; };
+		FF05C54F24EC6A1E007BF32B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF05C54E24EC6A1E007BF32B /* Assets.xcassets */; };
+		FF05C55224EC6A1E007BF32B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF05C55124EC6A1E007BF32B /* Preview Assets.xcassets */; };
+		FF05C55524EC6A1E007BF32B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF05C55324EC6A1E007BF32B /* LaunchScreen.storyboard */; };
+		FF05C56024EC6A1E007BF32B /* eduac_animationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF05C55F24EC6A1E007BF32B /* eduac_animationTests.swift */; };
+		FF05C56B24EC6A1E007BF32B /* eduac_animationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF05C56A24EC6A1E007BF32B /* eduac_animationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF05C55C24EC6A1E007BF32B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF05C53D24EC6A1D007BF32B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF05C54424EC6A1D007BF32B;
+			remoteInfo = "eduac animation";
+		};
+		FF05C56724EC6A1E007BF32B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF05C53D24EC6A1D007BF32B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF05C54424EC6A1D007BF32B;
+			remoteInfo = "eduac animation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF05C54524EC6A1D007BF32B /* eduac animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eduac animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF05C54824EC6A1D007BF32B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF05C54A24EC6A1D007BF32B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FF05C54C24EC6A1D007BF32B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FF05C54E24EC6A1E007BF32B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF05C55124EC6A1E007BF32B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FF05C55424EC6A1E007BF32B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF05C55624EC6A1E007BF32B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF05C55B24EC6A1E007BF32B /* eduac animationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "eduac animationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF05C55F24EC6A1E007BF32B /* eduac_animationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eduac_animationTests.swift; sourceTree = "<group>"; };
+		FF05C56124EC6A1E007BF32B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF05C56624EC6A1E007BF32B /* eduac animationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "eduac animationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF05C56A24EC6A1E007BF32B /* eduac_animationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eduac_animationUITests.swift; sourceTree = "<group>"; };
+		FF05C56C24EC6A1E007BF32B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF05C54224EC6A1D007BF32B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF05C55824EC6A1E007BF32B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF05C56324EC6A1E007BF32B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF05C53C24EC6A1D007BF32B = {
+			isa = PBXGroup;
+			children = (
+				FF05C54724EC6A1D007BF32B /* eduac animation */,
+				FF05C55E24EC6A1E007BF32B /* eduac animationTests */,
+				FF05C56924EC6A1E007BF32B /* eduac animationUITests */,
+				FF05C54624EC6A1D007BF32B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF05C54624EC6A1D007BF32B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF05C54524EC6A1D007BF32B /* eduac animation.app */,
+				FF05C55B24EC6A1E007BF32B /* eduac animationTests.xctest */,
+				FF05C56624EC6A1E007BF32B /* eduac animationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF05C54724EC6A1D007BF32B /* eduac animation */ = {
+			isa = PBXGroup;
+			children = (
+				FF05C54824EC6A1D007BF32B /* AppDelegate.swift */,
+				FF05C54A24EC6A1D007BF32B /* SceneDelegate.swift */,
+				FF05C54C24EC6A1D007BF32B /* ContentView.swift */,
+				FF05C54E24EC6A1E007BF32B /* Assets.xcassets */,
+				FF05C55324EC6A1E007BF32B /* LaunchScreen.storyboard */,
+				FF05C55624EC6A1E007BF32B /* Info.plist */,
+				FF05C55024EC6A1E007BF32B /* Preview Content */,
+			);
+			path = "eduac animation";
+			sourceTree = "<group>";
+		};
+		FF05C55024EC6A1E007BF32B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FF05C55124EC6A1E007BF32B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FF05C55E24EC6A1E007BF32B /* eduac animationTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF05C55F24EC6A1E007BF32B /* eduac_animationTests.swift */,
+				FF05C56124EC6A1E007BF32B /* Info.plist */,
+			);
+			path = "eduac animationTests";
+			sourceTree = "<group>";
+		};
+		FF05C56924EC6A1E007BF32B /* eduac animationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF05C56A24EC6A1E007BF32B /* eduac_animationUITests.swift */,
+				FF05C56C24EC6A1E007BF32B /* Info.plist */,
+			);
+			path = "eduac animationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF05C54424EC6A1D007BF32B /* eduac animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF05C56F24EC6A1E007BF32B /* Build configuration list for PBXNativeTarget "eduac animation" */;
+			buildPhases = (
+				FF05C54124EC6A1D007BF32B /* Sources */,
+				FF05C54224EC6A1D007BF32B /* Frameworks */,
+				FF05C54324EC6A1D007BF32B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "eduac animation";
+			productName = "eduac animation";
+			productReference = FF05C54524EC6A1D007BF32B /* eduac animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF05C55A24EC6A1E007BF32B /* eduac animationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF05C57224EC6A1E007BF32B /* Build configuration list for PBXNativeTarget "eduac animationTests" */;
+			buildPhases = (
+				FF05C55724EC6A1E007BF32B /* Sources */,
+				FF05C55824EC6A1E007BF32B /* Frameworks */,
+				FF05C55924EC6A1E007BF32B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF05C55D24EC6A1E007BF32B /* PBXTargetDependency */,
+			);
+			name = "eduac animationTests";
+			productName = "eduac animationTests";
+			productReference = FF05C55B24EC6A1E007BF32B /* eduac animationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF05C56524EC6A1E007BF32B /* eduac animationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF05C57524EC6A1E007BF32B /* Build configuration list for PBXNativeTarget "eduac animationUITests" */;
+			buildPhases = (
+				FF05C56224EC6A1E007BF32B /* Sources */,
+				FF05C56324EC6A1E007BF32B /* Frameworks */,
+				FF05C56424EC6A1E007BF32B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF05C56824EC6A1E007BF32B /* PBXTargetDependency */,
+			);
+			name = "eduac animationUITests";
+			productName = "eduac animationUITests";
+			productReference = FF05C56624EC6A1E007BF32B /* eduac animationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF05C53D24EC6A1D007BF32B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = user179774;
+				TargetAttributes = {
+					FF05C54424EC6A1D007BF32B = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					FF05C55A24EC6A1E007BF32B = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = FF05C54424EC6A1D007BF32B;
+					};
+					FF05C56524EC6A1E007BF32B = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = FF05C54424EC6A1D007BF32B;
+					};
+				};
+			};
+			buildConfigurationList = FF05C54024EC6A1D007BF32B /* Build configuration list for PBXProject "eduac animation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF05C53C24EC6A1D007BF32B;
+			productRefGroup = FF05C54624EC6A1D007BF32B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF05C54424EC6A1D007BF32B /* eduac animation */,
+				FF05C55A24EC6A1E007BF32B /* eduac animationTests */,
+				FF05C56524EC6A1E007BF32B /* eduac animationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF05C54324EC6A1D007BF32B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF05C55524EC6A1E007BF32B /* LaunchScreen.storyboard in Resources */,
+				FF05C55224EC6A1E007BF32B /* Preview Assets.xcassets in Resources */,
+				FF05C54F24EC6A1E007BF32B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF05C55924EC6A1E007BF32B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF05C56424EC6A1E007BF32B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF05C54124EC6A1D007BF32B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF05C54924EC6A1D007BF32B /* AppDelegate.swift in Sources */,
+				FF05C54B24EC6A1D007BF32B /* SceneDelegate.swift in Sources */,
+				FF05C54D24EC6A1D007BF32B /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF05C55724EC6A1E007BF32B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF05C56024EC6A1E007BF32B /* eduac_animationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF05C56224EC6A1E007BF32B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF05C56B24EC6A1E007BF32B /* eduac_animationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF05C55D24EC6A1E007BF32B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF05C54424EC6A1D007BF32B /* eduac animation */;
+			targetProxy = FF05C55C24EC6A1E007BF32B /* PBXContainerItemProxy */;
+		};
+		FF05C56824EC6A1E007BF32B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF05C54424EC6A1D007BF32B /* eduac animation */;
+			targetProxy = FF05C56724EC6A1E007BF32B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF05C55324EC6A1E007BF32B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF05C55424EC6A1E007BF32B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF05C56D24EC6A1E007BF32B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF05C56E24EC6A1E007BF32B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF05C57024EC6A1E007BF32B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"eduac animation/Preview Content\"";
+				DEVELOPMENT_TEAM = YHW9S97935;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "eduac animation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vanecendales.eduac-animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF05C57124EC6A1E007BF32B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"eduac animation/Preview Content\"";
+				DEVELOPMENT_TEAM = YHW9S97935;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "eduac animation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vanecendales.eduac-animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF05C57324EC6A1E007BF32B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YHW9S97935;
+				INFOPLIST_FILE = "eduac animationTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vanecendales.eduac-animationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eduac animation.app/eduac animation";
+			};
+			name = Debug;
+		};
+		FF05C57424EC6A1E007BF32B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YHW9S97935;
+				INFOPLIST_FILE = "eduac animationTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vanecendales.eduac-animationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eduac animation.app/eduac animation";
+			};
+			name = Release;
+		};
+		FF05C57624EC6A1E007BF32B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YHW9S97935;
+				INFOPLIST_FILE = "eduac animationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vanecendales.eduac-animationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "eduac animation";
+			};
+			name = Debug;
+		};
+		FF05C57724EC6A1E007BF32B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YHW9S97935;
+				INFOPLIST_FILE = "eduac animationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vanecendales.eduac-animationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "eduac animation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF05C54024EC6A1D007BF32B /* Build configuration list for PBXProject "eduac animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF05C56D24EC6A1E007BF32B /* Debug */,
+				FF05C56E24EC6A1E007BF32B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF05C56F24EC6A1E007BF32B /* Build configuration list for PBXNativeTarget "eduac animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF05C57024EC6A1E007BF32B /* Debug */,
+				FF05C57124EC6A1E007BF32B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF05C57224EC6A1E007BF32B /* Build configuration list for PBXNativeTarget "eduac animationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF05C57324EC6A1E007BF32B /* Debug */,
+				FF05C57424EC6A1E007BF32B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF05C57524EC6A1E007BF32B /* Build configuration list for PBXNativeTarget "eduac animationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF05C57624EC6A1E007BF32B /* Debug */,
+				FF05C57724EC6A1E007BF32B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF05C53D24EC6A1D007BF32B /* Project object */;
+}
